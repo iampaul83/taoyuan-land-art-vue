@@ -15,10 +15,15 @@
     
     <v-container>
       <h1>活動地圖</h1>
-      
-      <v-img src="/images/chm001.jpg" lazy-src="/images/chm001_tn.jpg"></v-img>
-      <v-img src="/images/chm002.jpg" lazy-src="/images/chm002_tn.jpg"></v-img>
-      <v-img src="/images/chm003.jpg" lazy-src="/images/chm003_tn.jpg"></v-img>
+      <a href="/images/chm001.jpg" target="_blank">
+        <v-img :src="`/images/${$vuetify.breakpoint.xs ? 'm' : 'd'}/chm001.jpg`" lazy-src="/images/chm001_tn.jpg"></v-img>
+      </a>
+      <a href="/images/chm002.jpg" target="_blank">
+        <v-img :src="`/images/${$vuetify.breakpoint.xs ? 'm' : 'd'}/chm002.jpg`" lazy-src="/images/chm002_tn.jpg"></v-img>
+      </a>
+      <a href="/images/chm003.jpg" target="_blank">
+        <v-img :src="`/images/${$vuetify.breakpoint.xs ? 'm' : 'd'}/chm003.jpg`" lazy-src="/images/chm003_tn.jpg"></v-img>
+      </a>
     </v-container>
   </div>
   

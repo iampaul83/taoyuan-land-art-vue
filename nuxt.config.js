@@ -1,7 +1,7 @@
 // const { VuetifyProgressiveModule } = require('vuetify-loader')
 
 module.exports = {
-  mode: 'spa',
+  // mode: 'spa',
   generate: {
     routes: [
       '/art/1',
