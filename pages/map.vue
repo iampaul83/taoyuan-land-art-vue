@@ -16,9 +16,9 @@
     <v-container>
       <h1>活動地圖</h1>
       
-      <v-img src="/images/chm001.jpg"></v-img>
-      <v-img src="/images/chm002.jpg"></v-img>
-      <v-img src="/images/chm003.jpg"></v-img>
+      <v-img src="/images/chm001.jpg" lazy-src="/images/chm001_tn.jpg"></v-img>
+      <v-img src="/images/chm002.jpg" lazy-src="/images/chm002_tn.jpg"></v-img>
+      <v-img src="/images/chm003.jpg" lazy-src="/images/chm003_tn.jpg"></v-img>
     </v-container>
   </div>
   

@@ -1,3 +1,5 @@
+// const { VuetifyProgressiveModule } = require('vuetify-loader')
+
 module.exports = {
   mode: 'spa',
   generate: {
@@ -51,6 +53,29 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      // vue loader
+      
+      // const vueLoader = config.module.rules.find(r => r.loader === 'vue-loader')
+      // if (!vueLoader.options.compilerOptions) {
+      //   vueLoader.options.compilerOptions = {}
+      // }
+      // if (!vueLoader.options.compilerOptions.modules) {
+      //   vueLoader.options.compilerOptions.modules = []
+      // }
+      // vueLoader.options.compilerOptions.modules.push(VuetifyProgressiveModule)
+
+      // vuetify-loader
+      // config.module.rules.push({
+      //   test: /\.(png|jpe?g|gif)$/,
+      //   resourceQuery: /vuetify-preload/,
+      //   use: [
+      //     'vuetify-loader/progressive-loader',
+      //     {
+      //       loader: 'url-loader',
+      //       options: { limit: 8000 }
+      //     }
+      //   ]
+      // })
     }
   }
 }
