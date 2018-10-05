@@ -2,6 +2,8 @@
 
 > [非官方] 2018桃園地景藝術節活動網站
 
+Build with Nuxt
+
 ## Build Setup
 
 ``` bash
